@@ -16,9 +16,9 @@
   background-color: black;
   color: white;
   
-  background-image: url("../images/background.webp");
+  background-image: url("../img/background.webp");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:cover;
   }
   
   /* main header rules */
@@ -38,7 +38,8 @@
   
   .characters li { 
     display: inline-block;
-    height: 220px;
+    height: 218px;
+    width: 150px;
     margin: 10px 8px;
   
     background-color: black;
@@ -59,7 +60,28 @@
     width: 100%;
     height: 6px;
     background-color: red;
+    transition: height 1s ease;
+
+   
   }
+  .characters li:hover .red_bumper { height: 70px; }
+
+
+
+  input [type="checkbox"] { margin-right: 20px;}
+
+
+
+input[type="checkbox"]:checked+span::after{
+    content: '\26bd';
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: rgb(13, 213, 236);
+    border: 4px solid rgb(10, 70, 85);
+ text-align:right;
+}
   
   article { 
     padding: 20px;
@@ -83,14 +105,14 @@
     width: 150px;
     height: 150px;
     
-    background-image: url('../images/marvelSprites.jpg');
+    background-image: url('../img/Flag_sprites.jpg');
   }
-  
-  #carol { background-position: -150px 0; }
-  #clint { background-position: -300px 0; }
-  #hulk { background-position: -450px 0; }
-  #thor { background-position: -600px 0; }
-  #widow { background-position: -750px 0; }
+  #germany{ background-position:  0px 0;}
+  #carol { background-position: -151px 0; }
+  #clint { background-position: -302px 0; }
+  #hulk { background-position: -453px 0; }
+  #thor { background-position: -602.8px 0; }
+  #widow { background-position: -751px 0; }
   
   .sprite:hover { background-position-y: -150px !important; }
   
@@ -119,17 +141,17 @@
     top: 0;
     left: 0;
   
-    background-color: rgba(0, 0, 0, 0.85);
-    background-image: url('../images/Cap_LB_Bg.png');
+    background-color: rgba(0, 0, 0, 0.937);
+    background-image: url('../img/Germany_Team.jpg');
     background-repeat: no-repeat;
   
     background-size: 55vh; /* 55% of the viewport height */
-    background-position: 40px bottom;
+   
   
     display: none;
   }
   
-  #lightbox2 { background-image: url(../img/Portugal_Team.jpg); }
+  #lightbox { background-image: url('../images/Thor_LB_Bg.png'); }
   
   .lightbox_close {
     position: relative;
