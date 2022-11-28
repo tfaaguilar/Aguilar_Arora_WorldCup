@@ -145,12 +145,11 @@ input[type="checkbox"]:checked+span::after{
     background-color: rgba(0, 0, 0, 0.937);
     background-image: url('../img/Germany_Team.jpg');
     background-repeat: no-repeat;
-  
 
     background-size: 80vh; /* 55% of the viewport height */
     background-position:   15px center;
 
-    background-size: 55vh; /* 55% of the viewport height */
+    
    
 
   
