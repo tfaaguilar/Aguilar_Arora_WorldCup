@@ -38,7 +38,8 @@
   
   .characters li { 
     display: inline-block;
-    height: 220px;
+    height: 218px;
+    width: 150px;
     margin: 10px 8px;
   
     background-color: black;
@@ -65,12 +66,14 @@
   }
   .characters li:hover .red_bumper { height: 70px; }
 
+
+
   input [type="checkbox"] { margin-right: 20px;}
 
 
 
 input[type="checkbox"]:checked+span::after{
-    content: '\2713';
+    content: '\26bd';
     width: 15px;
     height: 15px;
     padding: 2px;
@@ -102,14 +105,14 @@ input[type="checkbox"]:checked+span::after{
     width: 150px;
     height: 150px;
     
-    background-image: url('../img/marvelSprites.jpg');
+    background-image: url('../img/Flag_sprites.jpg');
   }
-  
-  #carol { background-position: -150px 0; }
-  #clint { background-position: -300px 0; }
-  #hulk { background-position: -450px 0; }
-  #thor { background-position: -600px 0; }
-  #widow { background-position: -750px 0; }
+  #germany{ background-position:  0px 0;}
+  #carol { background-position: -151px 0; }
+  #clint { background-position: -302px 0; }
+  #hulk { background-position: -453px 0; }
+  #thor { background-position: -602.8px 0; }
+  #widow { background-position: -751px 0; }
   
   .sprite:hover { background-position-y: -150px !important; }
   
@@ -138,12 +141,12 @@ input[type="checkbox"]:checked+span::after{
     top: 0;
     left: 0;
   
-    background-color: rgba(0, 0, 0, 0.85);
-    background-image: url('../img/Cap_LB_Bg.png');
+    background-color: rgba(0, 0, 0, 0.937);
+    background-image: url('../img/Germany_Team.jpg');
     background-repeat: no-repeat;
   
     background-size: 55vh; /* 55% of the viewport height */
-    background-position: 40px bottom;
+    background-position: ;
   
     display: none;
   }
