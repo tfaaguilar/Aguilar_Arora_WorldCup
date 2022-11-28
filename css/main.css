@@ -152,6 +152,50 @@ input[type="checkbox"]:checked+span::after{
   display: none;
 }
 
+
+  
+    display: none;
+  }
+  
+  #lightbox2 { background-image: url('../img/Portugal_Team.jpg'); }
+  #lightbox2 { background-color: black;
+    background-position: 15px center;
+    z-index: 5000;
+   width: 100vw;
+height: 100vh;}
+  
+  .lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 95%;
+  
+    color: white;
+    font-size: 3em;
+  
+    text-decoration: none;
+  
+    font-weight: bolder;
+  }
+  
+  .lightbox_close:hover { opacity: 0.5; color: red; }
+  
+  .lightbox article {
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+  }
+  
+  .lb_text, .lb_heading { text-align: left; }
+  
+  .lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+  }
+  
+  /* turn the lightbox on using the :target pseudo selector */
+  .lightbox:target { display: block; }
+=======
 #lightbox { background-image: url('../images/Thor_LB_Bg.png'); }
 
 .lightbox_close {
@@ -185,3 +229,4 @@ input[type="checkbox"]:checked+span::after{
 
 /* turn the lightbox on using the :target pseudo selector */
 .lightbox:target { display: block; }
+
