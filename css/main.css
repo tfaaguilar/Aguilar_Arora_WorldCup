@@ -129,7 +129,7 @@
     display: none;
   }
   
-  #lightbox2 { background-image: url('../images/Thor_LB_Bg.png'); }
+  #lightbox2 { background-image: url(../img/Portugal_Team.jpg); }
   
   .lightbox_close {
     position: relative;
