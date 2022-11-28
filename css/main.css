@@ -156,7 +156,12 @@ input[type="checkbox"]:checked+span::after{
     display: none;
   }
   
-  #lightbox { background-image: url('../images/Thor_LB_Bg.png'); }
+  #lightbox2 { background-image: url('../img/Portugal_Team.jpg'); }
+  #lightbox2 { background-color: black;
+    background-position: 15px center;
+    z-index: 5000;
+   width: 100vw;
+height: 100vh;}
   
   .lightbox_close {
     position: relative;
