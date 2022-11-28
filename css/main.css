@@ -146,13 +146,18 @@ input[type="checkbox"]:checked+span::after{
     background-image: url('../img/Germany_Team.jpg');
     background-repeat: no-repeat;
   
+
     background-size: 80vh; /* 55% of the viewport height */
     background-position:   15px center;
+
+    background-size: 55vh; /* 55% of the viewport height */
+   
+
   
     display: none;
   }
   
-  #lightbox2 { background-image: url('../img/Thor_LB_Bg.png'); }
+  #lightbox { background-image: url('../images/Thor_LB_Bg.png'); }
   
   .lightbox_close {
     position: relative;
