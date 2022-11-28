@@ -146,12 +146,12 @@ input[type="checkbox"]:checked+span::after{
     background-repeat: no-repeat;
   
     background-size: 55vh; /* 55% of the viewport height */
-    background-position: ;
+   
   
     display: none;
   }
   
-  #lightbox2 { background-image: url('../img/Thor_LB_Bg.png'); }
+  #lightbox { background-image: url('../images/Thor_LB_Bg.png'); }
   
   .lightbox_close {
     position: relative;
