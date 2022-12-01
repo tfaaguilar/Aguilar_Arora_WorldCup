@@ -1,14 +1,10 @@
-# FIFA world cup
+# FIFA WORLD CUP
 
-choose your favourite countries .
-
-## Installation
-
-TODO: Describe the installation process
+Choose your favourite country .
 
 ## Usage
 
-TODO: Write usage instructions
+Choose the country you like the most and click on it to learn more.
 
 ## Contributing
 
@@ -18,17 +14,11 @@ TODO: Write usage instructions
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-TODO: Write history
-
 ## Credits
 
-Bhuvnish arora 
-Estefania aguilar
+* Bhuvnish Arora 
+* Estefania Aguilar
 
 ## License
 
 MIT
-
-
