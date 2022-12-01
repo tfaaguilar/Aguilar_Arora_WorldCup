@@ -33,9 +33,9 @@ header {
 .characters { list-style-type: none; }
 
 .characters li { 
+  position: re;
   display: inline-block;
   height: 220px;
-  width: 150px;
   margin: 10px 10px;
   background-color: black;
   text-align: center;
